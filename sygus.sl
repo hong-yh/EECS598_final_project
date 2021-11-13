@@ -33,7 +33,7 @@
             (IsLoad I)
             (IsStore I)
             (IsFence I)
-            (AddEdge I)
+            (AddEdge N N)
             (ProgramOrder I I)
             (& B B)
             (| B B)

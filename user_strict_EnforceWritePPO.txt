@@ -44,10 +44,8 @@ I3 Execute I4 Execute
 
 rwc-unfenced.test
 negative
-I1 Writeback I2 Execute
-I2 Writeback I3 Execute
 I1 Fetch I2 Fetch
-I1 Execute I2 Executes
+I1 Execute I2 Execute
 I2 Fetch I3 Fetch
 I2 Execute I3 Execute
 

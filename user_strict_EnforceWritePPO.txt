@@ -1,0 +1,65 @@
+amd3.test
+negative
+I0 Fetch I1 Execute
+I1 Fetch I2 Execute
+I3 Fetch I4 Execute
+I4 Fetch I5 Execute
+
+iwp24.test
+negative
+I0 Execute I1 Execute
+I3 Execute I4 Execute
+I0 Writeback I1 Writeback
+I3 Writeback I4 Writeback
+
+n1.test
+negative
+I1 Fetch I2 Fetch
+I1 Execute I2 Execute
+I3 Fetch I4 Fetch
+I3 Execute I4 Execute
+
+n5.test
+negative
+I1 Fetch I2 Fetch
+I1 Execute I2 Execute
+I1 Writeback I2 Writeback
+
+podwr000.test
+negative
+I0 Execute I1 Execute
+I2 Execute I3 Execute
+I1 Fetch I2 Fetch
+I1 Execute I2 Execute
+
+podwr001.test
+negative
+I0 Execute I1 Execute
+I2 Execute I3 Execute
+I4 Execute I5 Execute
+I1 Fetch I2 Fetch
+I1 Execute I2 Execute
+I3 Fetch I4 Fetch
+I3 Execute I4 Execute
+
+rwc-unfenced.test
+negative
+I1 Writeback I2 Execute
+I2 Writeback I3 Execute
+I1 Fetch I2 Fetch
+I1 Execute I2 Executes
+I2 Fetch I3 Fetch
+I2 Execute I3 Execute
+
+sb.test
+negative
+I1 Execute I1 Execute
+I2 Execute I3 Execute
+I0 Writeback I3 Execute
+
+ssl.test
+negative
+I2 Writeback I0 Execute
+I2 Writeback I1 Execute
+I0 Fetch I1 Execute
+I1 Fetch I2 Execute

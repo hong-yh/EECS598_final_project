@@ -1,0 +1,48 @@
+amd3.test
+positive
+I0 Writeback I1 Execute
+I0 Writeback I2 Execute
+I1 Writeback I2 Execute
+I3 Writeback I4 Execute
+I3 Writeback I5 Execute
+I4 Writeback I5 Execute
+
+iwp24.test
+positive
+I0 Writeback I2 Execute
+I3 Writeback I5 Execute
+
+n1.test
+positive
+I0 Writeback I1 Execute
+I2 Writeback I3 Execute
+
+n5.test
+positive
+I0 Writeback I1 Execute
+I2 Writeback I3 Execute
+
+podwr000.test
+positive
+I0 Writeback I1 Execute
+I2 Writeback I3 Execute
+
+podwr001.test
+positive
+I0 Writeback I1 Execute
+I2 Writeback I3 Execute
+I4 Writeback I5 Execute
+
+rwc-unfenced.test
+positive
+I3 Writeback I4 Execute
+
+sb.test
+positive
+I0 Writeback I1 Execute
+I2 Writeback I3 Execute
+
+ssl.test
+positive
+I0 Writeback I1 Execute
+I1 Writeback I2 Execute
